@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // ─── YOUR API KEY — replace this before deploying ───────────────────────────
-const ANTHROPIC_API_KEY = REACT_APP_ANTHROPIC_API_KEY; // get it at console.anthropic.com
+const ANTHROPIC_API_KEY = process.env.REACT_APP_ANTHROPIC_API_KEY; // get it at console.anthropic.com
 
 // ─── Sample Data ─────────────────────────────────────────────────────────────
 const CONTRACTS = [
